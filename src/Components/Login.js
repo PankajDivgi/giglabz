@@ -23,7 +23,7 @@ const Login = () => {
         loggedIn: true,
       })
     );
-    navigate("/dashboard");
+    navigate("/menu1");
   };
   const allowLogin = name.length > 1 && email.length > 4 && password.length > 4;
   return (

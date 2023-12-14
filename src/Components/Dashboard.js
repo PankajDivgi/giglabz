@@ -25,7 +25,6 @@ const Dashboard = () => {
           </button>
         </div>
       </div>
-      {/* <div className="sidebar-n-content"> */}
       <div className="sidebar">
         <Link to="/menu1" className="menus">
           Menu1
@@ -33,12 +32,7 @@ const Dashboard = () => {
         <Link to="/menu2" className="menus">
           Menu2
         </Link>
-        {/* <div className="menus">Menu2</div> */}
       </div>
-      {/* <div className="content-part">
-          <h3>Menu-Content</h3>
-        </div> */}
-      {/* </div> */}
     </div>
   );
 };

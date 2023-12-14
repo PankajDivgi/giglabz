@@ -24,7 +24,7 @@ const Signup = () => {
         loggedIn: true,
       })
     );
-    navigate("/dashboard");
+    navigate("/menu1");
   };
   const allowSignup =
     name.length > 1 &&
